@@ -360,6 +360,8 @@ textarea {
 	font: inherit;
 }
 
+
+
 /* Interactive
 	 ========================================================================== */
 
@@ -574,24 +576,39 @@ a:active {
 
 /* Forms
 --------------------------------------------- */
+
+
+
+
 button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
-	background: #e6e6e6;
-	color: rgba(0, 0, 0, 0.8);
-	line-height: 1;
-	padding: 0.6em 1em 0.4em;
+	z-index: 1;
+	color: #202123;
+	letter-spacing: -1.5px;
+	background-color: #fff;
+	border: 1px solid #202123;
+	border-radius: 99px;
+	margin: 40px 0;
+	padding: 8px 23px 6px 23px;
+	font-family: Instrument Sans, sans-serif;
+	font-size: 1.3rem;
+	font-weight: 400;
+	line-height: 1.9rem;
+	transition: all .7s cubic-bezier(.77, 0, .175, 1);
+	position: relative;
+	box-shadow: 0 2px 5px #0006;
 }
 
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
+	color: #4ecda1;
+	border-color: #4ecda1;
+	transform: translate(-2px, -2px);
+	box-shadow: 5px 4px #4ecda1;
 }
 
 button:active,
@@ -669,6 +686,18 @@ textarea {
 /*--------------------------------------------------------------
 # Layouts + Templates
 --------------------------------------------------------------*/
+
+._404image {
+	width: 30vw;
+	min-width: 300px;
+	margin: 0px auto;
+	position: relative;
+	left:-15px;
+}
+
+.contactcard {
+	min-width: 100%;
+}
 
 .sectionstart {
 	position: relative;
@@ -1335,6 +1364,7 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
     margin: 10px 0;
     padding: 9px 20px;
 	font-weight: 300;
+	width:100%;
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus {

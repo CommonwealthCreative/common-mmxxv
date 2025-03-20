@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Codex
+ * Template Name: Memberships
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -20,7 +20,7 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'template-parts/content', 'codex' );
+			get_template_part( 'template-parts/content', 'membership' );
 
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :

@@ -9,52 +9,41 @@
 
 get_header();
 ?>
+<style>
+	.nav, .site-footer {display:none;}
+	.section-common {min-height: 100vh;}
+	</style>
+<section class="section-common bgdark">
+	<div id="work" data-w-id="34239f0a-c1ca-2acf-c782-767626233dec" class="w-layout-hflex commoncarouseltext">
+      <div class="carouselcontainer">
+        <div class="carouseltext">
+          <div>COMMONWEALTH</div>
+        </div>
+        <div class="carouseltext">
+          <div>CREATIVE</div>
+        </div>
+      </div>
+      <div class="carouselcontainer">
+        <div class="carouseltext">
+          <div>COMMONWEALTH</div>
+        </div>
+        <div class="carouseltext">
+          <div>CREATIVE</div>
+        </div>
+      </div>
+    </div>
+	<canvas class="header" id="interactiveCanvas"></canvas>
+ 	
+	<div data-w-id="af27d7af-148b-9945-4fb0-63761d263b9a" style="opacity:0" class="_1300 commoncenter">
+	<img class="_404image" loading="lazy" src="/wp-content/themes/commontheme2025/images/404.svg" alt="" class="">
+      <h1>It looks like you are lost.</h1>
+      <p class="mid">The page you are looking for does not exist.</p>
+      <a href="/" class="button bgwhite w-button">Take Me Back Home</a>
+    </div>
+	
+</div>
 
-	<main id="primary" class="site-main">
-
-		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'the-commonwealth-theme-mmxxv' ); ?></h1>
-			</header><!-- .page-header -->
-
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'the-commonwealth-theme-mmxxv' ); ?></p>
-
-					<?php
-					get_search_form();
-
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'the-commonwealth-theme-mmxxv' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories(
-								array(
-									'orderby'    => 'count',
-									'order'      => 'DESC',
-									'show_count' => 1,
-									'title_li'   => '',
-									'number'     => 10,
-								)
-							);
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$the_commonwealth_theme_mmxxv_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'the-commonwealth-theme-mmxxv' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$the_commonwealth_theme_mmxxv_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
-
-	</main><!-- #main -->
-
+</section>
+	
 <?php
 get_footer();

@@ -39,21 +39,26 @@
                 </div>
                 
                 <h1 data-w-id="34239f0a-c1ca-2acf-c782-767626233dfb" style="opacity:0">
-                    <span class="textmedium">Are You Being Held Back by a </span>
-                    <span data-w-id="34239f0a-c1ca-2acf-c782-767626233dfb" style="opacity:0">Lack of Talent?</span>
-                </h1>
-                <p class="mid">
-                    We can change that. Tell us about yourself and what you envision next. At Commonwealth Creative, we are the catalyst for your marketing and engineering team needs—delivering measurable ROI with precision and purpose.
+                    Want to work together?</h1>
+                <p class="">
+                    We cannot wait to hear from you! Fill out this form or send us an email at <a href="mailto:hi@thecommonwealthcreative.com" class="textwhite underline">hi@thecommonwealthcreative.com</a> to set up an introductory call.
                 </p>
+                <div style="margin-bottom:40px; margin-top:40px;"><hr></div>
+                <h1 data-w-id="34239f0a-c1ca-2acf-c782-767626233dfb" style="opacity:0">
+                Ready to learn more?</h1>
+                <p>You can <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="textwhite underline">schedule an introduction</a> with our founder or use the links below.</p>
+                <a href="/about-commonwealth-creative" class="pills bgdark textwhite"> About Our Studio</a>
+      <a href="/shop" class="pills bgdark textwhite">Shop Our Collection</a>
+      <a href="/the-codex" class="pills bgdark textwhite">Read From The Codex</a><a href="/strategies-methods" class="pills bgdark textwhite">Services We Offer</a>
           </div>
         </div>
         <div class="w-layout-cell">
-          <div data-w-id="d58e2865-e975-e494-7590-64cc7dbe37bc" style="opacity:0" class="commoncard bgdark">
-          <a data-w-id="d58e2865-e975-e494-7590-64cc7dbe37fb" href="https://buy.stripe.com/5kAbJu9tn2MU5c4bIS" target="_blank" class="iconlink textwhite w-inline-block">
+          <div data-w-id="d58e2865-e975-e494-7590-64cc7dbe37bc" style="opacity:0" class="commoncard bgdark contactcard">
+          <div data-w-id="d58e2865-e975-e494-7590-64cc7dbe37fb" class="iconlink textwhite w-inline-block">
                 <div class="actionpulse"></div>
-                <div class="fa"></div>
-                <div class="icontext mid commonsans">Sign Up Here</div>
-              </a>
+                <div class="fa"></div>
+                <div class="icontext mid commonsans">Let's connect.</div>
+</div>
           <?php
 					the_content();
 
@@ -68,7 +73,6 @@
         </div>
       </div>
     </div>
-    <?php get_template_part('template-parts/technologies'); ?>
 </div>
 
 </section>

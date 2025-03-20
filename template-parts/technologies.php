@@ -61,9 +61,6 @@
         <a href="/the-codex" class="toolsicon w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/openai.svg" alt="" class="toolsimg">
           <div>OpenAI</div>
         </a>
-        <a href="/the-codex" class="toolsicon w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/screamingfrog.webp" alt="" class="toolsimg">
-          <div>Screaming Frog</div>
-        </a>
         <a href="/the-codex" class="toolsicon w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/meta.webp" alt="" class="toolsimg">
           <div>Meta Business</div>
         </a>
@@ -131,9 +128,6 @@
         </a>
         <a href="/the-codex" class="toolsicon w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/openai.svg" alt="" class="toolsimg">
           <div>OpenAI</div>
-        </a>
-        <a href="/the-codex" class="toolsicon w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/screamingfrog.webp" alt="" class="toolsimg">
-          <div>Screaming Frog</div>
         </a>
         <a href="/the-codex" class="toolsicon w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/meta.webp" alt="" class="toolsimg">
           <div>Meta Business</div>

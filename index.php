@@ -41,7 +41,7 @@ get_header();
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
         <p class="mid">Say hello to a <a href="/shop" class="textwhite underline">membership</a> specifically created for <a href="/strategies-methods/" class="textwhite underline">what you need</a>, right now. We empower marketing and engineering teams with signature brands, websites and applications that streamline workflows, transform audiences into loyal customers, and rapidly maximize your <a href="#faqs" class="textwhite underline">return on investment</a>.</p>
         <div class="stretch">
-        <a href="/work" target="_blank" class="button bgwhite w-button">View Portfolio<span class="fa after"></span></a><a href="/shop" target="_blank" class="button second w-button">Plans &amp; Pricing<span class="fa after"></span></a>
+        <a href="/work" class="button bgwhite w-button">View Portfolio<span class="fa after"></span></a><a href="/shop" class="button second w-button">Plans &amp; Pricing<span class="fa after"></span></a>
         </div>
       </div>
     </div>

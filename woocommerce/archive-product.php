@@ -38,7 +38,7 @@ get_header();
 	 <div class="commoncenter">
 		<h1 class="entry-title">Curated Products &amp; Services</h1>
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
-        <p class="mid">Our collection showcases services and essential items chosen for their quality, impact, and alignment with our values.</p>
+        <p class="">Our collection showcases services and essential items chosen for their quality, impact, and alignment with our values.</p>
       </div>
 
       </header><!-- .entry-header -->

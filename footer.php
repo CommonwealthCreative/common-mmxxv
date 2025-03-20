@@ -87,32 +87,30 @@ Cal("init", "15min", {origin:"https://cal.com"});
   </script>
 <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67c2760655e5509ae779592c" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script>
-  function updateTime() {
-    const now = new Date();
+function updateTime() {
+  const options = {
+    timeZone: 'America/New_York',
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: false
+  };
 
-    // Convert local time to UTC then adjust to EST (UTC-5)
-    const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
-    const estNow = new Date(utc - (5 * 3600000));
+  const nowEST = new Date().toLocaleString('en-US', options);
+  // toLocaleString returns something like "March 20, 2025, 14:05:09"
+  const [date, time] = nowEST.split(', ');
 
-    // Format date components
-    const options = { month: 'long', day: 'numeric', year: 'numeric' };
-    const formattedDate = estNow.toLocaleDateString('en-US', options);
+  document.getElementById('current-time').innerText = `${date} // ${time} ET`;
+}
 
-    // Format time in 24-hour format
-    let hours = estNow.getHours().toString().padStart(2, '0');
-    let minutes = estNow.getMinutes().toString().padStart(2, '0');
-    let seconds = estNow.getSeconds().toString().padStart(2, '0');
-
-    // Final time format
-    const formattedTime = `${hours}:${minutes}:${seconds} EST`;
-
-    // Set the output
-    document.getElementById('current-time').innerText = `${formattedDate} // ${formattedTime}`;
-  }
-
-  setInterval(updateTime, 1000); // Update time every second
-  updateTime(); // Call once immediately
+setInterval(updateTime, 1000);
+updateTime();
 </script>
+
+
 <?php wp_footer(); ?>
 
 </body>

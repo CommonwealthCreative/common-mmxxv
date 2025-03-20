@@ -33,7 +33,7 @@
       <div class="commoncenter">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
-        <p class="mid"><a href="/the-codex" class="underline textwhite">The Codex</a> is a curated collection of terms, principles and concepts. Acting as a living, informational record, it serves as both a resource and a guide, detailing the processes, strategies, and expertise behind Commonwealth Creative.</p>
+        <p class=""><a href="/the-codex" class="underline textwhite">The Codex</a> is a curated collection of terms, principles and concepts. Acting as a living, informational record, it serves as both a resource and a guide, detailing the processes, strategies, and expertise behind Commonwealth Creative.</p>
         <div class="search-container">
           <form role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
               <input 

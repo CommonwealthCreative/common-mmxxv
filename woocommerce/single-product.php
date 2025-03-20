@@ -67,9 +67,6 @@ $show_questions_section = in_array('Design', $product_categories) || in_array('C
         <div class="scripts withlove">
           made with <span class="fa middle textcommon"></span> in the commonwealth of virginia
         </div>
-		<p class="mid">
-          <a href="/shop" class="underline textwhite">Our Collection</a> showcases services and essential items chosen for their quality, impact, and alignment with our values.
-        </p>
       </div>
       <div class="woocommerce-notices-wrapper">
         <?php woocommerce_output_all_notices(); ?>

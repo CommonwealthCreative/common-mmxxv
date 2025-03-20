@@ -166,8 +166,46 @@ if ( ! empty( $categories ) ) {
               echo '</div>';
           }
           ?>
-    <div data-w-id="af27d7af-148b-9945-4fb0-63761d263b9a" style="opacity:0" class="_1300 sectionstart">
-      <div class="scripts">More Work</div>
+    <div data-w-id="af27d7af-148b-9945-4fb0-63761d263b9a" style="opacity:0" class="_1300">
+      <div class="_1300 sectionstart stretch">
+    <a href="/work" class="scripts"><span class="fa"></span> All Projects</a>
+      <?php
+// Get the categories for the current post.
+$categories = get_the_category();
+if ( ! empty( $categories ) ) {
+    // We'll use the first category (adjust if needed).
+    $cat_id = $categories[0]->term_id;
+
+    // Query for all posts in this category, ordered by date (ASC).
+    $args = array(
+        'cat'              => $cat_id,
+        'posts_per_page'   => -1,
+        'orderby'          => 'date',
+        'order'            => 'ASC',
+        'fields'           => 'ids', // Only fetch post IDs.
+    );
+    $posts_in_cat = get_posts( $args );
+
+    if ( ! empty( $posts_in_cat ) ) {
+        $current_post_id = get_the_ID();
+        $current_index   = array_search( $current_post_id, $posts_in_cat );
+
+        if ( false !== $current_index ) {
+            $next_index = $current_index + 1;
+
+            // If we're at the last post, loop back to the first.
+            if ( ! isset( $posts_in_cat[ $next_index ] ) ) {
+                $next_post_id = $posts_in_cat[0];
+            } else {
+                $next_post_id = $posts_in_cat[ $next_index ];
+            }
+
+            $next_post_link = get_permalink( $next_post_id );
+            echo '<a id="next" class="scripts" href="' . esc_url( $next_post_link ) . '">Next Project <span class="fa after"></span></a>';
+        }
+    }
+}
+?></div>
       <div id="w-node-_2b7497b0-043b-4d31-ec4c-92599b972b96-e7795935" class="w-layout-layout commonstack portfolioloop wf-layout-layout">
       <?php
 // Get the current post ID
@@ -202,6 +240,7 @@ endif;
 ?>  
       </div>
     </div>
+    
     <?php get_template_part('template-parts/cta-shop'); ?>
 </section>
 <!--END -->

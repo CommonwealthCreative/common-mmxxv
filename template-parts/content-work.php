@@ -33,10 +33,7 @@
       <div class="commoncenter">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
-        <p class="mid">The Commonwealth Creative is the catalyst for your marketing or engineering team. Your timeline, our expertise—enterprise design and technology built for healthcare, higher education, and government.</p>
-		<div class="stretch">
-        <a href="/contact" target="_blank" class="button bgwhite w-button">Start Here<span class="fa after"></span></a><a href="/shop" target="_blank" class="button second w-button">Plans &amp; Pricing<span class="fa after"></span></a>
-        </div>
+        <p class="">The Commonwealth Creative is the catalyst for your marketing or engineering team. Your timeline, our expertise—enterprise design and technology built for healthcare, higher education, and government.</p>
 
 	  </header><!-- .entry-header -->
 	  <div data-w-id="af27d7af-148b-9945-4fb0-63761d263b9a" style="opacity:0" class="_1300 sectionstart">
