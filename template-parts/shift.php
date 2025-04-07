@@ -9,7 +9,7 @@
     <div class="_1300">
       <div class="commoncenter">
         <h2 class="jumbo"><span class="commonsans">The</span> Creative Shift</h2>
-        <p class="mid">Creating meaningful connections and enhancing user experience lie at the heart of <a href="#" class="textwhite underline">our work</a>. We are revolutionizing how companies leverage design and technology to foster collaborative, thoughtful relationships with both clients and their customers.</p>
+        <p class="mid">Creating meaningful connections and enhancing user experience lie at the heart of <a href="/work" class="textwhite underline">our work</a>. We are revolutionizing how companies leverage design and technology to foster collaborative, thoughtful relationships with both clients and their customers.</p>
         <div>
           <a href="/strategies-methods/" class="pills _478-hide">Branding</a>
           <a href="/strategies-methods/" class="pills _478-hide">Technology Audit</a>

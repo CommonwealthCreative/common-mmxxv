@@ -16,7 +16,10 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Instrument Sans:regular,500,700,italic,500italic,700italic","Instrument Serif:regular,italic"]  }});</script>
 	<?php wp_head(); ?>
 </head>
 

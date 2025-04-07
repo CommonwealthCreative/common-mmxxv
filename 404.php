@@ -35,7 +35,7 @@ get_header();
 	<canvas class="header" id="interactiveCanvas"></canvas>
  	
 	<div data-w-id="af27d7af-148b-9945-4fb0-63761d263b9a" style="opacity:0" class="_1300 commoncenter">
-	<img class="_404image" loading="lazy" src="/wp-content/themes/commontheme2025/images/404.svg" alt="" class="">
+	<img class="_404image" loading="lazy" src="/wp-content/themes/common-mmxxv/images/404.svg" alt="" class="">
       <h1>It looks like you are lost.</h1>
       <p class="mid">The page you are looking for does not exist.</p>
       <a href="/" class="button bgwhite w-button">Take Me Back Home</a>

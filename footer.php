@@ -103,7 +103,7 @@ function updateTime() {
   // toLocaleString returns something like "March 20, 2025, 14:05:09"
   const [date, time] = nowEST.split(', ');
 
-  document.getElementById('current-time').innerText = `${date} // ${time} ET`;
+  document.getElementById('current-time').innerText = `${date} ${time} ET`;
 }
 
 setInterval(updateTime, 1000);

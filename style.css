@@ -1285,7 +1285,7 @@ clip-path: inset(0px 0px 0px 0px);
 	pointer-events: none!important; 
 }
 
-.section-common a, .faq-container, .faq, .pills, .scripts, form, button{
+.section-common a, .faq-container, .faq, .pills, .scripts, form, button, .wc-block-components-sidebar {
 	pointer-events: auto!important; 
 }
 
@@ -1486,6 +1486,12 @@ li.servicelist, li.techlist {
 		grid-template-columns: 1fr;
 	  }
 
+	  .section-common.portfolio {
+		background-attachment: scroll!important;
+	  }
+	  .portfolio-blurb ul.commonlist {
+		justify-content: left;
+	  }
 
 }
 

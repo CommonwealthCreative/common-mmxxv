@@ -167,7 +167,7 @@ get_header();
       </div>
     </div>
 </section>
-<section data-w-id="698beae1-7624-3887-86ac-e49d3a30dc5b" style="opacity:0" class="_1300">
+<section data-w-id="698beae1-7624-3887-86ac-e49d3a30dc5b" style="opacity:0" class="_1300 section-common">
       <div class="scripts">The Collection</div>
       <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="pills bgdark">Ask A Question</a>
       <div class="woocommerce-notices-wrapper">
