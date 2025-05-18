@@ -39,9 +39,9 @@ get_header();
       <div class="commoncenter">
         <h1 class="textwhite">A signature design &amp; technology studio created just for you.</h1>
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
-        <p class="mid textwhite">We empower marketing and engineering teams with signature brands, websites and digital products that streamline workflows, transform audiences into loyal customers, and rapidly maximize <a href="#faqs" class="textwhite underline">return on investment</a>.</p>
+        <p class="mid textwhite">One membership. Every service. No limitations. Our experts integrate seamlessly with your team, delivering results with speed, precision, and reliability. <a href="#faqs" class="textwhite underline">Have questions?</a></p>
         <div class="stretch">
-        <a href="/work" class="button bgwhite w-button">View Portfolio<span class="fa after"></span></a><a href="/shop" class="button second w-button">Plans &amp; Pricing<span class="fa after"></span></a>
+        <a href="/shop" class="button bgwhite w-button">Membership Starts Here<span class="fa after"></span></a>
         </div>
       </div>
     </div>

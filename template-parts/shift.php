@@ -4,31 +4,31 @@
       <div class="scripts">Our Purpose</div>
       <a href="/about-commonwealth-creative" class="pills _478-hide"> studio</a>
       <a href="/shop" class="pills _478-hide">collection</a>
-      <a href="/the-codex" class="pills _478-hide">the codex</a>
+      <a href="/the-codex" class="pills">the codex</a>
     </div>
     <div class="_1300">
       <div class="commoncenter">
         <h2 class="jumbo"><span class="commonsans">The</span> Creative Shift</h2>
-        <p class="mid">Creating meaningful connections and enhancing user experience lie at the heart of <a href="/work" class="textwhite underline">our work</a>. We are revolutionizing how companies leverage design and technology to foster collaborative, thoughtful relationships with both clients and their customers.</p>
+        <p class="mid">Creating meaningful connections and enhancing user experience lies at the heart of <a href="/work" class="textwhite underline">our work</a>. Now, we are purposefully revolutionizing how companies access design and technology. With a <a class="textwhite underline" href="/shop/">membership</a> at Commonwealth Creative, you gain unlimited access to every service we offer. <b>Join the revolution today.</b></p>
         <div>
-          <a href="/strategies-methods/" class="pills _478-hide">Branding</a>
-          <a href="/strategies-methods/" class="pills _478-hide">Technology Audit</a>
-          <a href="/strategies-methods/" class="pills _478-hide">Information Architecture</a>
-          <a href="/strategies-methods/" class="pills _478-hide">Logo Design</a>
-          <a href="/strategies-methods/" class="pills _478-hide">Style Guide</a>
-          <a href="/strategies-methods/" class="pills _478-hide">Illustration</a>
-          <a href="/strategies-methods/" class="pills _478-hide">User Interface Design</a>
-          <a href="/strategies-methods/" class="pills _478-hide">Accessibility Design</a>
-          <a href="/strategies-methods/" class="pills _478-hide">Website Development</a>
-          <a href="/strategies-methods/" class="pills _478-hide">Product Development</a>
-          <a href="/strategies-methods/" class="pills _478-hide">SEO &amp; SEM</a>
-          <a href="/strategies-methods/" class="pills _478-hide">API Integrations</a>
-          <a href="/strategies-methods/" class="pills _478-hide">Server Administration</a>
-          <a href="/strategies-methods/" class="pills _478-hide">Version Control</a>
-          <a href="/strategies-methods/" class="pills _478-hide">Server Administration</a>
-          <a href="/strategies-methods/" class="pills _478-hide">AI Agents</a>
+          <a href="/strategies-methods/" class="pills">Branding</a>
+          <a href="/strategies-methods/" class="pills">Technology Audits</a>
+          <a href="/strategies-methods/" class="pills">Website Development</a>
+          <a href="/strategies-methods/" class="pills">Logo Design</a>
+          <a href="/strategies-methods/" class="pills">Interface Design</a>
+          <a href="/strategies-methods/" class="pills">App Development</a>
+          <a href="/strategies-methods/" class="pills">Style Guides</a>
+          <a href="/strategies-methods/" class="pills">Illustration</a>
+          <a href="/strategies-methods/" class="pills">Accessibility Design</a>
+          <a href="/strategies-methods/" class="pills">Graphic Design</a>
+          <a href="/strategies-methods/" class="pills">Product Development</a>
+          <a href="/strategies-methods/" class="pills">SEO &amp; SEM</a>
+          <a href="/strategies-methods/" class="pills">API Integrations</a>
+          <a href="/strategies-methods/" class="pills">Server Administration</a>
+          <a href="/strategies-methods/" class="pills">Marketing Automation</a>
+          <a href="/strategies-methods/" class="pills">AI Agents</a>
         </div>
-        <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="button bgwhite w-button">Let&#x27;s Talk<span class="fa after"></span></a>
+        <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="button bgwhite w-button">Membership Starts Here<span class="fa after"></span></a>
       </div>
     </div>
     <div data-w-id="8517ecf9-be48-c813-728f-8f1760611f34" style="opacity:0" class="_1300 sectionstart">
