@@ -691,6 +691,18 @@ textarea {
 # Layouts + Templates
 --------------------------------------------------------------*/
 
+.page-template-membership .commonstack.services a.commoncard {
+color: #202123
+}
+
+.page-template-membership .commonstack.services a.commoncard:hover {
+color: #fff
+}
+
+.page-template-membership #reviews {
+	background: transparent;
+}
+
 ._404image {
 	width: 30vw;
 	min-width: 300px;

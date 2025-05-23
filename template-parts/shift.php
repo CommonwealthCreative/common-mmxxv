@@ -1,3 +1,10 @@
+<?php
+$uri_path = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+$link = ($uri_path === 'memberships') ? '#pricing' : '/memberships';
+?>
+
+
+
 <section data-w-id="a7ba6240-b004-9610-39ee-023d332b2caf" class="section-common shift">
     <div class="bgshift"></div>
     <div class="w-layout-hflex _1300 clear sectionstart">
@@ -9,7 +16,8 @@
     <div class="_1300">
       <div class="commoncenter">
         <h2 class="jumbo"><span class="commonsans">The</span> Creative Shift</h2>
-        <p class="mid">Creating meaningful connections and enhancing user experience lies at the heart of <a href="/work" class="textwhite underline">our work</a>. Now, we are purposefully revolutionizing how companies access design and technology. With a <a class="textwhite underline" href="/shop/">membership</a> at Commonwealth Creative, you gain unlimited access to every service we offer. <b>Join the revolution today.</b></p>
+        <p class="mid">Creating meaningful connections and enhancing user experience lies at the heart of <a href="/work" class="textwhite underline">our work</a>. Now, we are purposefully revolutionizing how companies access design and technology. With a <a class="textwhite underline" href="<?php echo esc_url($link); ?>">
+membership</a> at Commonwealth Creative, you gain unlimited access to every service we offer. <b>Join the revolution today.</b></p>
         <div>
           <a href="/strategies-methods/" class="pills">Branding</a>
           <a href="/strategies-methods/" class="pills">Technology Audits</a>
@@ -28,7 +36,7 @@
           <a href="/strategies-methods/" class="pills">Marketing Automation</a>
           <a href="/strategies-methods/" class="pills">AI Agents</a>
         </div>
-        <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' target="_blank" class="button bgwhite w-button">Membership Starts Here<span class="fa after"></span></a>
+        <a href="<?php echo esc_url($link); ?>" class="button bgwhite w-button">Membership Starts Here<span class="fa after"></span></a>
       </div>
     </div>
     <div data-w-id="8517ecf9-be48-c813-728f-8f1760611f34" style="opacity:0" class="_1300 sectionstart">

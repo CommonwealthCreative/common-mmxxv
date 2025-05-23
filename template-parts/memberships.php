@@ -1,7 +1,7 @@
-<div data-w-id="f054164c-46ae-9b22-9ce2-ed99c490d194" style="opacity:0" class="_1300 sectionstart">
+<div data-w-id="f054164c-46ae-9b22-9ce2-ed99c490d194" style="opacity:0" class="_1300 sectionstart" id="pricing">
       <div class="scripts">memberships</div>
       <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="scripts _478-hide"><span class="fa"></span> the catalyst for your marketing &amp; engineering</a>
-    <p class="mid common66w" style="margin-bottom:10px;">Subscribe for unlimited access to every service we offer. Fixed cost. No contracts. Cancel or pause anytime. Begin your membership with a strategic <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="underline"><span class="">kick-off meeting</span></a> where we&#x27;ll evaluate brand + technology positioning, and define your KPIs. Get immediate access to your dashboard, submit unlimited requests and receive deliverables every 48-72 hours.
+    <p class="mid common66w" style="margin-bottom:10px;">Subscribe for unlimited access to every service we offer. Fixed cost. No contracts. Cancel or pause anytime. Begin your membership with a strategic <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="underline"><span class="">kick-off meeting,</span></a> where we&#x27;ll evaluate your brand + technology positioning, and define your KPIs. Get immediate access to your dashboard, submit unlimited requests, and receive deliverables every 48-72 hours.
         <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="underline"><span >Have Questions?</span></a>
         </p>
 
@@ -58,7 +58,7 @@
             <div class="cardbottom">
               <a data-w-id="2599bb22-7a1b-6a83-8ec2-59e174badc67" href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="iconlink w-inline-block">
                 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.5, 0.5, 1) rotateX(0deg) rotateY(0deg) rotateZ(-90deg) skew(0, 0);transform-style:preserve-3d" class="fa rocket"></div>
-                <div class="icontext mid commonsans">Schedule An Introduction</div>
+                <div class="icontext mid commonsans textdark">Schedule An Introduction</div>
               </a>
             </div>
           </div>
