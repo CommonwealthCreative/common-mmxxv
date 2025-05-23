@@ -417,6 +417,10 @@ html {
 
 /* Typography
 --------------------------------------------- */
+.txtlite {
+	color: #ebebeb;
+}
+
 body,
 button,
 input,
