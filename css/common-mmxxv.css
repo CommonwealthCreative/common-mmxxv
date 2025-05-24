@@ -730,41 +730,6 @@ a:hover {
   align-items: center;
 }
 
-.commonworkrow {
-  background-color: #202123;
-  background-image: url('../images/commonwealth-creative-white-dropout-logo.svg');
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-}
-
-.commonworkrow:hover {
-  background-position: 50%;
-}
-
-.commonworkrow.novafr {
-  background-image: url('../images/commonwealth-creative-virginia-novafr-giving-metro_1.webp');
-}
-
-.commonworkrow.mba {
-  background-image: url('../images/commonwealth-creative-mbumba-hero_1commonwealth-creative-mbumba-hero.webp');
-}
-
-.commonworkrow.george {
-  background-image: url('../images/commonwealth-creative-george-wythe_1.webp');
-}
-
-.commonworkrow.dbhds {
-  background-image: url('../images/commonwealth-creative-virginia-dbhds--1_1.webp');
-}
-
-.commonworkrow.therapyland {
-  background-image: url('../images/commonwealth-creative-therapyland--1_1commonwealth-creative-therapyland--1.webp');
-}
 
 .movearrow {
   width: 50px;

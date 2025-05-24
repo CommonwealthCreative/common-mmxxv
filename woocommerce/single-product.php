@@ -121,9 +121,9 @@ if ( ! empty( $next_product_link ) ) {
 
       </div> <!-- End of product-content -->
       
-      <div class="_1300 sectionstart">
+      
        <?php get_template_part('template-parts/standards'); ?>
-      </div>
+     
     </section>
     <section class="section-common portfolio bg-image" style="background-image: url('<?php echo esc_url( get_the_post_thumbnail_url( get_the_ID(), 'full' ) ); ?>');">
     <div class="text-holder">

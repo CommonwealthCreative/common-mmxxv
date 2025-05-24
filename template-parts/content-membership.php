@@ -231,7 +231,5 @@
 	<?php get_template_part('template-parts/memberships'); ?>
 		<?php get_template_part('template-parts/reviews'); ?>
 </section>
-<section class="section-common">
       		<?php get_template_part('template-parts/shift'); ?>
-</section>
 </article><!-- #post-<?php the_ID(); ?> -->

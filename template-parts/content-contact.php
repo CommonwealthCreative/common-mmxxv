@@ -53,7 +53,7 @@
           </div>
         </div>
         <div class="w-layout-cell">
-          <div data-w-id="d58e2865-e975-e494-7590-64cc7dbe37bc" style="opacity:0" class="commoncard bgdark contactcard">
+          <div data-w-id="d58e2865-e975-e494-7590-64cc7dbe37bc" style="opacity:0" class="commoncard contactcard">
           <div data-w-id="d58e2865-e975-e494-7590-64cc7dbe37fb" class="iconlink textwhite w-inline-block">
                 <div class="actionpulse"></div>
                 <div class="fa"></div>
