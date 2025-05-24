@@ -1490,6 +1490,7 @@ li.servicelist, li.techlist {
 
 @media screen and (max-width: 479px) {
 
+
 }
 
 @media screen and (max-width: 767px) {
@@ -1508,10 +1509,16 @@ li.servicelist, li.techlist {
 	  .portfolio-blurb ul.commonlist {
 		justify-content: left;
 	  }
+	  #w-node-_463c986e-7c7b-d3b8-8099-2143075283cb-e7795935 {
+		padding:20px 0px;
+	  }
 
 }
 
 @media screen and (max-width: 991px) {
+	.secondary-content img {
+		margin-bottom:20px;
+	}
 }
 
 @media screen and (max-width: 1300px) and (min-width: 992px) {

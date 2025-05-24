@@ -241,8 +241,9 @@ endif;
       </div>
     </div>
     
-    <?php get_template_part('template-parts/cta-shop'); ?>
+
 </section>
+    <?php get_template_part('template-parts/cta-shop'); ?>
 <!--END -->
         <script>
 document.addEventListener('DOMContentLoaded', function() {
