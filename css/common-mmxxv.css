@@ -920,17 +920,10 @@ a:hover {
 
 .sampleimg._1 {
   overflow: clip;
-  transform: rotate(15deg);
 }
 
-.sampleimg._2 {
+.sampleimg._2, .sampleimg._3 {
   margin-top: -100px;
-  transform: rotate(-15deg);
-}
-
-.sampleimg._3 {
-  margin-top: -140px;
-  transform: rotate(15deg);
 }
 
 @media screen and (max-width: 991px) {
@@ -1139,6 +1132,11 @@ a:hover {
     margin-top: 40px;
     margin-bottom: 40px;
   }
+
+  .flexblockmemberperks {
+    flex-flow: column;
+  }
+
 }
 
 @media screen and (max-width: 479px) {

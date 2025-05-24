@@ -16,8 +16,12 @@
         <h1>Unlock <em class="textcommon">unlimited access</em> to full-stack design &amp; development.</h1>
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
         <p class="mid">Built for founders, marketers, and enterprise teams, we're bringing you full-stack design &amp; development <strong>the way it should have been all along</strong>: one membership, every service, unlimited requests—delivered every 48–72 hours.</p>
-        <a href="#pricing" target="_blank" class="button w-button">Plans &amp; Pricing<span class="fa after"></span></a>
-        <div class="pills textdark bgcommon">Pause or cancel anytime</div>
+        <a href="#pricing" target="_blank" class="button w-button bgdark">Plans &amp; Pricing<span class="fa after"></span></a>
+                <div class="w-layout-hflex flexblockmemberperks">
+          <div class="scripts"><span class="fa textcommon"></span>Immediate dashboard access</div>
+          <div class="scripts"><span class="fa textcommon"></span>Pause or cancel anytime</div>
+          <div class="scripts"><span class="fa textcommon"></span>fixed monthly cost</div>
+        </div>
       </div>
  
     </div>
