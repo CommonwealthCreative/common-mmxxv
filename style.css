@@ -1519,6 +1519,7 @@ li.servicelist, li.techlist {
 	.secondary-content img {
 		margin-bottom:20px;
 	}
+	
 }
 
 @media screen and (max-width: 1300px) and (min-width: 992px) {
