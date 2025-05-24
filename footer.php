@@ -17,7 +17,15 @@
       <div class="scripts">Next Steps</div>
       <div class="scripts"><span class="fa textcommon"></span> <span id="current-time"></span></div>
       <p class="jumbo commonserif">The catalyst for your marketing and engineering team.</p>
-      <a href="/contact/" class="button bgwhite w-button">Start Here<span class="fa after"></span></a>
+<?php
+  $href = is_page_template( 'contact.php' )
+    ? '#page'
+    : site_url( '/contact/' );
+?>
+<a href="<?php echo esc_url( $href ); ?>" class="button bgwhite w-button">
+  Start Here<span class="fa after"></span>
+</a>
+
       
     </div>
     <div id="w-node-_57727a23-b52b-463c-a26c-dfb459c580d1-e7795935" class="w-layout-layout menuwrapper wf-layout-layout">

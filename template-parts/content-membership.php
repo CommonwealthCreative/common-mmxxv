@@ -27,7 +27,7 @@
     </div>
     	<?php get_template_part('template-parts/technologies'); ?>
     <div class="_1300">
-      <p class="match1"><b>Revolutionizing</b> design and development—seamless, on-demand, and built for growth.</p>
+      <p class="match1"><b>Revolutionizing</b> design and development—instant access to whatever you need.</p>
       <div id="w-node-_16b55484-e8a0-79ca-cec9-cd0c5f36f430-e7795935" class="w-layout-layout commonstack landing wf-layout-layout">
         <div class="w-layout-cell">
           <div class="commoncard _1">
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="w-layout-cell">
-          <div class="commoncard _2">
+          <div data-w-id="f05169ee-178c-7301-722f-a74d6acb4b83" class="commoncard _2">
             <div class="mid textwhite"><strong>// 02</strong></div>
             <ul role="list" class="commonlist">
               <li>
@@ -100,7 +100,7 @@
         <?php get_template_part('template-parts/services'); ?>
     <div class="_1300 sectionstart">
       <div class="scripts">CREATED FOR YOU</div>
-      <p class="match1"><b>Unlimited access</b> to every service—created to 10x your marketing &amp; tech output.</p>
+      <p class="match1"><b>Unlimited requests</b> for any service—created to 10x your marketing &amp; tech output.</p>
       <div id="w-node-_463c986e-7c7b-d3b8-8099-2143075283cb-e7795935" class="w-layout-layout wf-layout-layout">
         <div data-w-id="463c986e-7c7b-d3b8-8099-2143075283cc" style="opacity:0" class="w-layout-cell commoncard bgwhite"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/brand-5bdeb8.svg" alt="" class="commoncellimage">
           <h2 class="jumbo">Branding</h2>

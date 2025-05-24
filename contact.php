@@ -15,7 +15,7 @@
 get_header();
 ?>
 <style>
-	.nav, .site-footer {display:none;}
+	.nav {display:none;}
 	.section-common {min-height: 100vh;}
 	</style>
 	<main id="primary" class="site-main">
