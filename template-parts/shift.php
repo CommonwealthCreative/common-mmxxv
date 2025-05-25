@@ -168,7 +168,7 @@ membership</a> at Commonwealth Creative, you gain unlimited access to every serv
               </div>
               <nav class="faq-body w-dropdown-list">
                 <div class="faq-body-cont">
-                  <p class="faq-answer">Getting started is simple! <a href="https://thecommonwealthcreative.com/shop"><strong>Start a membership or make a purchase </strong></a>, and you&#x27;ll immediately gain access to your dashboard where you can begin uploading requests. You’ll also receive an email invitation to your private Slack channel for direct communication with us. <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}'><strong>You can also schedule a call</a> or <a href="/contact/">contact us</a> and we&#x27;ll get you started.</strong></a>
+                  <p class="faq-answer">Getting started is simple! <a href="https://thecommonwealthcreative.com/memberships"><strong>Start a membership</strong></a>, and you&#x27;ll immediately gain access to your dashboard where you can begin uploading requests. You’ll also receive an email invitation to your private Slack channel for direct communication with us. <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}'><strong>You can also schedule a call</a> or <a href="/contact/">contact us</a> and we&#x27;ll get you started.</strong></a>
                   </p>
                 </div>
               </nav>

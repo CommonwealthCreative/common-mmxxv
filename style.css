@@ -680,6 +680,8 @@ textarea {
 	top:-2px;
 	margin-right: 20px;
 	width: 75%;
+	background: #fff;
+	padding: 9px 20px; 
 }
 
 .search-container {
@@ -689,6 +691,21 @@ textarea {
 /*--------------------------------------------------------------
 # Layouts + Templates
 --------------------------------------------------------------*/
+
+.section-common.invert {
+	padding-top: 20px; 
+}
+
+.post-template-codexpost-template .commonflexwide a.pills{
+background: #000;
+color: #fff;
+}
+
+.post-template-codexpost-template .commonflexwide a.pills:hover{
+background: #5bdeb8;
+color: #000;
+}
+
 
 .page-template-membership .commonstack.services a.commoncard {
 color: #202123
