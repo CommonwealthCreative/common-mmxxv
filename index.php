@@ -39,7 +39,7 @@ get_header();
       <div class="commoncenter">
         <h1 class="textwhite">A signature design &amp; technology studio created just for you.</h1>
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
-        <p class="mid textwhite">One membership. Every service. No limitations. Our experts integrate seamlessly with your team, delivering results with speed, precision, and reliability. <a href="#faqs" class="textwhite underline">Have questions?</a></p>
+        <p class="mid textwhite">One membership. Every service. No limitations. Get immediate access to your dashboard, submit unlimited requests, and receive deliverables every 48-72 hours. <a href="#faqs" class="textwhite underline">Have questions?</a></p>
         <div class="stretch">
         <a href="/memberships" class="button bgwhite w-button">Membership Starts Here<span class="fa after"></span></a>
         </div>

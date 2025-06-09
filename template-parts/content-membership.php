@@ -9,9 +9,9 @@
 
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<section id="memberships" data-w-id="16b55484-e8a0-79ca-cec9-cd0c5f36f36f" class="section-common invert">\
+<section id="memberships" data-w-id="16b55484-e8a0-79ca-cec9-cd0c5f36f36f" class="section-common invert">
   	<canvas class="header" id="interactiveCanvas"></canvas>
-    <div class="_1300">
+    <div data-w-id="d298873b-d54b-cbb3-7c49-a5ea6850e86a" style="opacity:0" class="_1300">
       <div class="commoncenter">
         <h1>Unlock <em class="textcommon">unlimited access</em> to full-stack design &amp; development.</h1>
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
