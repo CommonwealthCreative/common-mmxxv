@@ -417,6 +417,11 @@ html {
 
 /* Typography
 --------------------------------------------- */
+.big {
+	font-size: 2.5rem;
+	line-height: 150%;
+}
+
 .txtlite {
 	color: #ebebeb;
 }
@@ -581,7 +586,24 @@ a:active {
 /* Forms
 --------------------------------------------- */
 
+.workbook-start-form {
+  width: 100% !important;
+  max-width: none !important;
+  border-top: 1px solid #808080;
+  padding-top: 20px; 
+}
+.workbook-start-form .wpcf7-textarea {
+	height: 166px;
+	background: #ebebeb;
+}
 
+.workbook-start-form .wpcf7-textarea::placeholder {
+		color: #202123;
+}
+
+.workbook-start-form .wpcf7-submit.bgdark {
+	color: #fff;
+}
 
 
 button,
@@ -613,6 +635,7 @@ input[type="submit"]:hover {
 	border-color: #4ecda1;
 	transform: translate(-2px, -2px);
 	box-shadow: 5px 4px #4ecda1;
+	cursor: pointer;
 }
 
 button:active,
@@ -691,7 +714,9 @@ textarea {
 /*--------------------------------------------------------------
 # Layouts + Templates
 --------------------------------------------------------------*/
-
+.pills.center {
+	margin-left:10px;
+}
 .section-common.invert {
 	padding-top: 20px; 
 }
@@ -706,6 +731,9 @@ background: #5bdeb8;
 color: #000;
 }
 
+.home .commonstack.services a.commoncard > .mid {
+color: #fff
+}
 
 .page-template-membership .commonstack.services a.commoncard {
 color: #202123
@@ -1319,7 +1347,7 @@ clip-path: inset(0px 0px 0px 0px);
 	pointer-events: none!important; 
 }
 
-.section-common a, .faq-container, .faq, .pills, .scripts, form, button, .wc-block-components-sidebar {
+.section-common a, .faq-container, .faq, .pills, .scripts, form, button, .wc-block-components-sidebar, .cal-inline-container {
 	pointer-events: auto!important; 
 }
 
@@ -1507,11 +1535,16 @@ li.servicelist, li.techlist {
 
 /* Media
 --------------------------------------------- */
-
-@media screen and (max-width: 479px) {
-
-
+@media screen and (max-width: 991px) {
+	.secondary-content img {
+		margin-bottom:20px;
+	}
+	.big {
+		font-size: 2rem;
+	}
+	
 }
+
 
 @media screen and (max-width: 767px) {
 
@@ -1532,15 +1565,27 @@ li.servicelist, li.techlist {
 	  #w-node-_463c986e-7c7b-d3b8-8099-2143075283cb-e7795935 {
 		padding:20px 0px;
 	  }
+	  .pills.center {
+		margin-left:0px;
+		}
+		#w-node-dd429c00-187b-a969-aef0-bddf29b70e73-e7795935{
+			  display: flex;
+  			flex-direction: column-reverse;
+			padding-left:0px;
+			padding-right:0px;
+		}
 
 }
 
-@media screen and (max-width: 991px) {
-	.secondary-content img {
-		margin-bottom:20px;
+@media screen and (max-width: 479px) {
+
+	.big {
+		font-size: 1.2rem;
+		line-height: 2rem;
 	}
-	
 }
+
+
 
 @media screen and (max-width: 1300px) and (min-width: 992px) {
 	.section-common {

@@ -706,25 +706,75 @@ function save_quick_edit_ranking( $post_id ) {
 }
 add_action( 'save_post', 'save_quick_edit_ranking' );
 
-/**
- * Add Ranking to the Quick Edit data attributes.
- */
-function enqueue_quick_edit_script() {
-    wp_enqueue_script( 'quick-edit-ranking', get_template_directory_uri() . '/js/quick-edit-ranking.js', array( 'jquery' ), '1.0.0', true );
-}
-add_action( 'admin_enqueue_scripts', 'enqueue_quick_edit_script' );
+function sc_register_subscriber_form() {
+    if ( isset($_POST['sc_register_submit']) && wp_verify_nonce( $_POST['sc_register_nonce'], 'sc_register_form' ) ) {
+        $name  = sanitize_text_field( $_POST['sc_name'] );
+        $email = sanitize_email( $_POST['sc_email'] );
 
-/**
- * Add Ranking data to the Quick Edit inline data.
- */
-function add_quick_edit_ranking_inline_data( $column_name, $post_id ) {
-    if ( 'ranking' === $column_name ) {
-        $ranking = get_post_meta( $post_id, '_post_ranking', true );
-        ?>
-        <div class="hidden" id="ranking-data-<?php echo $post_id; ?>">
-            <span class="ranking"><?php echo esc_attr( $ranking ); ?></span>
-        </div>
-        <?php
+        if ( ! email_exists( $email ) ) {
+            $username = sanitize_user( current( explode( '@', $email ) ) );
+            $password = wp_generate_password();
+            $user_id  = wp_create_user( $username, $password, $email );
+
+            if ( ! is_wp_error( $user_id ) ) {
+                wp_update_user([ 'ID' => $user_id, 'display_name' => $name ]);
+                $u = new WP_User( $user_id );
+                $u->set_role( 'subscriber' );
+
+                $creds = [ 'user_login' => $username, 'user_password' => $password, 'remember' => true ];
+                $user  = wp_signon( $creds, false );
+
+                if ( ! is_wp_error( $user ) ) {
+                    wp_redirect( site_url( '/my-account' ) );
+                    exit;
+                } else {
+                    $error = $user->get_error_message();
+                }
+            } else {
+                $error = $user_id->get_error_message();
+            }
+        } else {
+            $error = sprintf(
+                'This email is already registered. <a class="underline" href="%s">Go to your account page</a>.',
+                esc_url( site_url( '/my-account' ) )
+            );
+        }
     }
+
+    ob_start();
+
+    if ( ! empty( $error ) ) {
+        echo '<p class="error">' . wp_kses_post( $error ) . '</p>';
+    }
+    ?>
+    <form method="post">
+        <p>
+            <label class="textwhite">
+                Email the workbook to:<br>
+                <input type="email" name="sc_email" placeholder="Your Email*" required>
+            </label>
+        </p>
+        <p>
+            <label class="textwhite">
+                Put my name in the subject line:<br>
+                <input type="text" name="sc_name" placeholder="You Name*" required>
+            </label>
+        </p>
+
+        <?php wp_nonce_field( 'sc_register_form', 'sc_register_nonce' ); ?>
+
+        <p>
+            <button type="submit"
+                    name="sc_register_submit"
+                    class="button bgwhite w-button">
+                Download Now
+                <span class="fa after"></span>
+            </button>
+        </p>
+    </form>
+    <?php
+
+    return ob_get_clean();
 }
-add_action( 'quick_edit_custom_box', 'add_quick_edit_ranking_inline_data', 10, 2 );
+add_shortcode( 'subscriber_form', 'sc_register_subscriber_form' );
+

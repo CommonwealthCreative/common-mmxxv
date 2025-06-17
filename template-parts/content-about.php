@@ -80,34 +80,11 @@
 				</section>
 				<section data-w-id="10cbc55e-5ca5-0185-04f3-c5246728be3b" class="section-common invert">
 	<?php get_template_part('template-parts/standards'); ?>
-		<div data-w-id="42b22a58-cb58-635f-dbee-1114398e377c" style="opacity:0" class="_1300 sectionstart">
-		<div class="scripts">Leadership</div>
-		<div id="w-node-_46fd53e0-bba8-c334-b33f-564ac21c7f00-e7795935" class="w-layout-layout commonstack wf-layout-layout">
-			<div class="w-layout-cell">
-			<img class="" style="border-radius:999px; border: 1px solid #818181; padding:13px;" src="<?php echo get_template_directory_uri(); ?>/images/commonwealth-creative-matthew-thomas-small.jpg">
-			</div>
-			<div class="w-layout-cell">
-			<h2 class="jumbo">Founder</h2>
-			<p class="mid">Matthew Thomas Small</p>
-			<p>Creating meaningful connections and enhancing user experience is at the heart of my work. I focus on revolutionizing how companies leverage design and technology to foster collaborative, thoughtful relationships with both clients and their customers. My proficiency in technology and my creative sensibilities consistently result in the development of innovative, enduring digital solutions and applications. With over 15 years of experience in brand strategy, design, and technology, I deliver solutions built on a proven foundation, focused on exceeding KPIs, maximizing ROI, and driving measurable success.</p>
-			<div class="commonflexwide"> 
-				<a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="pills textdark">
-				<span class="fa"></span>Schedule
-				</a>
-				<a href="mailto:hi@thecommonwealthcreative.com" target="_blank" class="pills textdark">
-				<span class="fa"></span>Email
-				</a>
-				<a href="https://www.linkedin.com/in/matt-t-small/" target="_blank" class="pills textdark">
-				<span class="fa brands"></span>Linkedin
-				</a>
-			</div>
-			</div>
-		</div>
-		</div>
+		  	<?php get_template_part('template-parts/founder'); ?>
 		<div data-w-id="af27d7af-148b-9945-4fb0-63761d263b9a" style="opacity:0" class="_1300 sectionstart">
       		<div class="scripts">So Not Common Talent</div>
       
-			<p class="match1">At our studio, we pride ourselves on maintaining a flexible roster of top talent, adjusting team members to ensure the best fit for our clients. This agile approach allows us to continuously refine our expertise, adapt to requests, and deliver solutions that exceed expectations. If you believe your skills and vision make you a perfect match for our team, <a class="underline textdark" href="/contact">we’d love to hear from you</a>.</p>		
+			<p class="big">At our studio, we pride ourselves on maintaining a flexible roster of top talent, adjusting team members to ensure the best fit for our clients. This agile approach allows us to continuously refine our expertise, adapt to requests, and deliver solutions that exceed expectations. If you believe your skills and vision make you a match for our team, <b><a class="underline textdark" href="/contact">we’d love to hear from you</a>.</b></p>		
 		</div>
 	</section>
 	<?php get_template_part('template-parts/reviews'); ?>

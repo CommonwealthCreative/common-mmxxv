@@ -22,12 +22,6 @@
   font-display: swap;
 }
 
-.w-layout-hflex {
-  flex-direction: row;
-  align-items: flex-start;
-  display: flex;
-}
-
 .w-layout-layout {
   grid-row-gap: 20px;
   grid-column-gap: 20px;
@@ -39,6 +33,12 @@
 .w-layout-cell {
   flex-direction: column;
   justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.w-layout-hflex {
+  flex-direction: row;
   align-items: flex-start;
   display: flex;
 }
@@ -327,7 +327,7 @@ a:hover {
   flex: 1;
   justify-content: space-between;
   align-items: flex-start;
-  min-height: 650px;
+  min-height: 600px;
   display: flex;
   overflow: hidden;
 }
@@ -344,6 +344,12 @@ a:hover {
   min-height: 650px;
   display: flex;
   overflow: hidden;
+}
+
+.commoncard.bgworkbook {
+  background-image: radial-gradient(circle at 0 100%, #000 31%, #0000), url('../images/commonwealth-creative-brand-workbook-bg.png');
+  background-position: 100% 100%, 0 0;
+  background-size: auto, cover;
 }
 
 .icontext {
@@ -729,7 +735,6 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-
 
 .movearrow {
   width: 50px;
@@ -1136,7 +1141,6 @@ a:hover {
   .flexblockmemberperks {
     flex-flow: column;
   }
-
 }
 
 @media screen and (max-width: 479px) {
@@ -1262,6 +1266,11 @@ a:hover {
   }
 }
 
+#w-node-dd429c00-187b-a969-aef0-bddf29b70e73-e7795935, #w-node-_6972c7cd-399a-b671-38ab-2317dafae165-e7795935, #w-node-_2ac8e9fe-9092-3c7b-16af-ed5a09ea870d-e7795935 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
 #w-node-_16b55484-e8a0-79ca-cec9-cd0c5f36f430-e7795935 {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1363,7 +1372,7 @@ a:hover {
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-_16b55484-e8a0-79ca-cec9-cd0c5f36f430-e7795935, #w-node-_463c986e-7c7b-d3b8-8099-2143075283cb-e7795935, #w-node-_46fd53e0-bba8-c334-b33f-564ac21c7f00-e7795935, #w-node-_56f8d0aa-d475-fffb-d70c-5c530f079890-e7795935, #w-node-_08098a0e-7516-2dfb-0d01-e7c9bd0d1497-e7795935 {
+  #w-node-dd429c00-187b-a969-aef0-bddf29b70e73-e7795935, #w-node-_6972c7cd-399a-b671-38ab-2317dafae165-e7795935, #w-node-_2ac8e9fe-9092-3c7b-16af-ed5a09ea870d-e7795935, #w-node-_16b55484-e8a0-79ca-cec9-cd0c5f36f430-e7795935, #w-node-_463c986e-7c7b-d3b8-8099-2143075283cb-e7795935, #w-node-_46fd53e0-bba8-c334-b33f-564ac21c7f00-e7795935, #w-node-_56f8d0aa-d475-fffb-d70c-5c530f079890-e7795935, #w-node-_08098a0e-7516-2dfb-0d01-e7c9bd0d1497-e7795935 {
     grid-template-rows: auto;
     grid-template-columns: 1fr;
   }

@@ -107,7 +107,4 @@
 
     <?php get_template_part('template-parts/cta-codex'); ?>
   </section>
-  <?php get_template_part('template-parts/reviews'); ?>
-  <?php get_template_part('template-parts/cta-shop'); ?>
-    <?php get_template_part('template-parts/shift'); ?>
 </article><!-- #post-<?php the_ID(); ?> -->

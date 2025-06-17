@@ -16,15 +16,17 @@
     <div data-w-id="5c482834-e75e-e40c-87b5-677860f7a5cd" style="opacity:0" class="_1300">
       <div class="scripts">Next Steps</div>
       <div class="scripts"><span class="fa textcommon"></span> <span id="current-time"></span></div>
-      <p class="jumbo commonserif">The catalyst for your marketing and engineering team.</p>
+      
+      <p class="jumbo commonserif">One membership. Every service. No limitations.</p>
 <?php
-  $href = is_page_template( 'contact.php' )
-    ? '#page'
-    : site_url( '/contact/' );
+  $href = is_page_template( 'membership.php' )
+    ? '#pricing'
+    : site_url( '/memberships/' );
 ?>
 <a href="<?php echo esc_url( $href ); ?>" class="button bgwhite w-button">
-  Start Here<span class="fa after"></span>
+  Start Your Membership<span class="fa after"></span>
 </a>
+
 
       
     </div>
