@@ -37,9 +37,6 @@ get_header();
     <canvas class="header" id="interactiveCanvas"></canvas>
     <div data-w-id="34239f0a-c1ca-2acf-c782-767626233dfb" style="opacity:0" class="_1300">
       <div class="commoncenter">
-                <div class="stretch">
-        <a href="https://g.co/kgs/kTYSnzB" target="_blank" class="scripts center textwhite"><span class="fa textcommon"></span>5.0 Reviews</a><a href="/about-commonwealth-creative/" target="_blank" class="scripts center textwhite   ._478-hide"><span class="fa textcommon"></span>Locally Owned & Operated</a>
-</div>
         <h1 class="textwhite">The signature design &amp; technology studio <em class="textcommon">created just for you.</em></h1>
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
         <p class="mid textwhite">One membership. Every service. No limitations. Get immediate access to your dashboard, submit unlimited requests, and receive deliverables every 48-72 hours. <a href="#faqs" class="textwhite underline">Have questions?</a></p>
