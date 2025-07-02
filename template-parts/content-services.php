@@ -33,6 +33,7 @@
 	 <div class="commoncenter">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
+		        <p class="">Our all-access approach removes limits, so we can focus on delivering exceptional results for the world’s most demanding brands.</p>
       </div>
       <div class="w-layout-hflex sectionstart">
         <div class="scripts">The Studio</div><a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="pills">Introduction</a><a href="/contact" class="pills">Contact Us</a>
@@ -81,7 +82,7 @@
 				<section data-w-id="10cbc55e-5ca5-0185-04f3-c5246728be3b" class="section-common invert">
 	<?php get_template_part('template-parts/offerings'); ?>
 		<?php get_template_part('template-parts/memberships'); ?>
-				<?php get_template_part('template-parts/workbook'); ?>
+				<?php get_template_part('template-parts/cta-workbook'); ?>
 	</section>
 	<?php get_template_part('template-parts/reviews'); ?>
 	<?php get_template_part('template-parts/cta-shop'); ?>

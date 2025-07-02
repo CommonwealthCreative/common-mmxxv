@@ -36,7 +36,7 @@
 </div>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
-        <p class="">The Commonwealth Creative is the catalyst for your marketing or engineering team.<br>One membership, unlimited access to our all our services—enterprise design and technology.</p>
+        <p class="">One membership. Every service. No limitations. Get immediate access to your dashboard, submit unlimited requests, and receive deliverables every 48-72 hours. </p>
 
 	  </header><!-- .entry-header -->
 	  <div data-w-id="af27d7af-148b-9945-4fb0-63761d263b9a" style="opacity:0" class="_1300 sectionstart">

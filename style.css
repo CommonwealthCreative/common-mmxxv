@@ -586,23 +586,118 @@ a:active {
 /* Forms
 --------------------------------------------- */
 
-.workbook-start-form {
-  width: 100% !important;
-  max-width: none !important;
-  border-top: 1px solid #808080;
-  padding-top: 20px; 
-}
-.workbook-start-form .wpcf7-textarea {
-	height: 166px;
-	background: #ebebeb;
+.commoncard.bgworkbook {
+	margin:0px;
+	border-radius: 0px;;
 }
 
-.workbook-start-form .wpcf7-textarea::placeholder {
-		color: #202123;
+.workbook-start-form {
+  width: 66%;
+  padding-top: 20px; 
+  margin: auto auto;
+  text-align: center;
+}
+
+.workbook-start-form .commonstack {
+	max-width: 500px;
+	margin: auto;
+}
+
+ .workbook-step  {
+	color:#202123;
+	background: #5bdeb8;
+	padding:20px;
+	border-radius:10px;
+}
+
+.workbook-start-form .commonstack .w-layout-cell {
+align-items: center;
 }
 
 .workbook-start-form .wpcf7-submit.bgdark {
 	color: #fff;
+}
+
+.workbook-start-form .wpcf7-form p:last-of-type .wpcf7-spinner {
+  display: none !important;
+}
+
+#user input[type="submit"] {
+  margin: 0;
+}
+
+.workbook-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.workbook-button.active.layout-end {
+  justify-content: center;
+}
+
+.workbook-step textarea::placeholder {
+	color: #202123;
+}
+
+.workbook-step.start {
+  text-align: center;
+}
+
+.workbook-step.start p:first-of-type {
+	background: #00000040;
+	padding: 50px 20px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+
+.workbook-step.start .wpcf7-form-control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10%;
+}
+
+.workbook-step.start .wpcf7-list-item, .workbook-step.start .wpcf7-list-item Label {
+  display: flex;
+  align-items: center;
+}
+
+
+.workbook-step.start input[type="radio"] {
+  /* Remove default circle */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* Size relative to font – slightly larger */
+  width: 2em;
+  height: 2em;
+
+  /* Square shape with rounded corners */
+  border: 2px solid currentColor;
+  border-radius: 10px;
+
+  /* Spacing & positioning */
+  margin-right: 0.5em;
+  position: relative;
+  cursor: pointer;
+}
+
+.workbook-step.start input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* Inner “dot” sized relative to the box */
+  width: 1.5em;
+  height: 1.5em;
+  background-color: #5bdeb8;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
 }
 
 
@@ -1536,6 +1631,10 @@ li.servicelist, li.techlist {
 /* Media
 --------------------------------------------- */
 @media screen and (max-width: 991px) {
+
+	  .scripts.marquee {
+	left: 90px!important;
+  }
 	.secondary-content img {
 		margin-bottom:20px;
 	}
@@ -1574,6 +1673,13 @@ li.servicelist, li.techlist {
 			padding-left:0px;
 			padding-right:0px;
 		}
+		.workbook-start-form {
+			text-align: left;
+			width: 100%;
+		}
+		.workbook-start-form .commonstack .w-layout-cell {
+align-items: flex-start;
+}
 
 }
 

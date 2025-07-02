@@ -16,7 +16,7 @@ $link = ($uri_path === 'memberships') ? '#pricing' : '/memberships';
     <div class="_1300">
       <div class="commoncenter">
         <h2 class="jumbo"><span class="commonsans">The</span> Creative Shift</h2>
-        <p class="mid">Creating meaningful connections and enhancing user experience lies at the heart of <a href="/work" class="textwhite underline">our work</a>. That's why we are purposefully revolutionizing how you access design and technology. With a <a class="textwhite underline" href="<?php echo esc_url($link); ?>">
+        <p class="mid">Creating meaningful connections and enhancing user experience lie at the heart of <a href="/work" class="textwhite underline">our work</a>. That's why we are purposefully revolutionizing how you access design and technology. With a <a class="textwhite underline" href="<?php echo esc_url($link); ?>">
 membership</a> at Commonwealth Creative, you gain unlimited access to every service we offer. <b>Join the revolution today.</b></p>
         <div>
           <a href="/strategies-methods/" class="pills">Branding</a>

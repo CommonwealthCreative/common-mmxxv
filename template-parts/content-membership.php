@@ -113,6 +113,9 @@
         </div>
       </div>
     </div>
+</section>
+<section data-w-id="16b55484-e8a0-79ca-cec9-cd0c5f36f36f" class="section-common invert">    
+  
         <?php get_template_part('template-parts/services'); ?>
     <div class="_1300 sectionstart">
       <div class="scripts">CREATED FOR YOU</div>
@@ -218,15 +221,17 @@
           </ul>
         </div>
       </div>
-    </div>
-</section>
-<section data-w-id="16b55484-e8a0-79ca-cec9-cd0c5f36f36f" class="section-common invert">     
+    </div> 
 	<?php get_template_part('template-parts/standards'); ?>
   	<?php get_template_part('template-parts/founder'); ?>
-	</section>
-	<section class="section-common bgdark">
-	<?php get_template_part('template-parts/memberships'); ?>
-		<?php get_template_part('template-parts/reviews'); ?>
 </section>
-      		<?php get_template_part('template-parts/shift'); ?>
+
+<section class="section-common bgdark">
+	<?php get_template_part('template-parts/memberships'); ?>
+	<?php get_template_part('template-parts/reviews'); ?>
+</section>
+
+<?php get_template_part('template-parts/shift'); ?>
+
 </article><!-- #post-<?php the_ID(); ?> -->
+
