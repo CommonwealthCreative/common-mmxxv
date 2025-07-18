@@ -117,11 +117,11 @@
 <section data-w-id="16b55484-e8a0-79ca-cec9-cd0c5f36f36f" class="section-common invert">    
   
         <?php get_template_part('template-parts/services'); ?>
-    <div class="_1300 sectionstart">
+<div class="_1300 sectionstart">
       <div class="scripts">CREATED FOR YOU</div>
       <p class="match1"><b>Unlimited requests</b> for any service—created to 10x your design &amp; technology output.</p>
-      <div id="w-node-_463c986e-7c7b-d3b8-8099-2143075283cb-e7795935" class="w-layout-layout wf-layout-layout">
-  <div data-w-id="463c986e-7c7b-d3b8-8099-2143075283cc" style="opacity:0" class="w-layout-cell commoncard _5">
+  <div id="w-node-_463c986e-7c7b-d3b8-8099-2143075283cb-e7795935" class="w-layout-layout wf-layout-layout">
+    <div data-w-id="463c986e-7c7b-d3b8-8099-2143075283cc" style="opacity:0" class="w-layout-cell commoncard _5">
     <img loading="lazy" src="/wp-content/themes/common-mmxxv/images/brand-5bdeb8.svg" alt="" class="commoncellimage">
     <h2 class="jumbo textwhite">Branding<br>& Design</h2>
     <p class="mid textwhite">Strategic design, clear messaging, and consistent visual systems—turning what makes you unique into work that stands out and connects.</p>
@@ -223,9 +223,8 @@
     </ul>
   </div>
 </div>
+</div>
 
-      </div>
-    </div> 
 	<?php get_template_part('template-parts/standards'); ?>
   	<?php get_template_part('template-parts/founder'); ?>
 </section>

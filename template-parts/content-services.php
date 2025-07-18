@@ -79,8 +79,9 @@
 			<?php endif; ?>
     </div>
 				</section>
-				<section data-w-id="10cbc55e-5ca5-0185-04f3-c5246728be3b" class="section-common invert">
+
 	<?php get_template_part('template-parts/offerings'); ?>
+		<section data-w-id="10cbc55e-5ca5-0185-04f3-c5246728be3b" class="section-common invert">
 		<?php get_template_part('template-parts/memberships'); ?>
 				<?php get_template_part('template-parts/cta-workbook'); ?>
 	</section>
