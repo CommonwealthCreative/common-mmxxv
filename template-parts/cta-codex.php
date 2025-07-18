@@ -19,30 +19,37 @@
       <p><b>The Codex is a curated collection of terms detailing the processes, strategies, and expertise behind our work. </b>With our experienced guidance, you won't have to navigate these complexities on your own. We invite you to explore these entries to uncover deeper insights.</p>
 			<div class="commonflexwide"> 
       <?php
-// Define the query arguments for the "codex" category with random order
+// Define the query arguments for the "codex" parent category only
 $args = array(
-    'category_name'  => 'codex', // Always use the "codex" category
-    'posts_per_page' => 13,      // Limit to 10 posts
-    'orderby'        => 'rand',  // Randomize the selection
+    'posts_per_page' => 13,
+    'orderby'        => 'rand',
+    'tax_query'      => array(
+        array(
+            'taxonomy'         => 'category',
+            'field'            => 'slug',
+            'terms'            => 'codex',
+            'include_children' => false,
+        ),
+    ),
 );
 
 // Start the custom query
-$query = new WP_Query($args);
+$query = new WP_Query( $args );
 
-if ($query->have_posts()) :
-    echo '<ul role="list" class="commonlist">'; // Open the list
-    while ($query->have_posts()) : $query->the_post(); ?>
+if ( $query->have_posts() ) :
+    echo '<ul role="list" class="commonlist">';
+    while ( $query->have_posts() ) : $query->the_post(); ?>
         <li>
             <a class="pills" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
         </li>
     <?php endwhile;
-    echo '</ul>'; // Close the list
-    wp_reset_postdata(); // Reset post data after custom loop
+    echo '</ul>';
+    wp_reset_postdata();
 else :
-    // Fallback if no posts are found
     echo '<p>No posts found in the "codex" category.</p>';
 endif;
 ?>
+
 			</div>
 			</div>
 		</div>
