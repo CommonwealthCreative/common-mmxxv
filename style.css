@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
 Description: Description
-Version: 1.0.0
+Version: 1.7.17
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -622,6 +622,10 @@ align-items: center;
   display: none !important;
 }
 
+.w-button.bgwhite.sc-replaced {
+	margin-bottom:0px;
+}
+
 #user input[type="submit"] {
   margin: 0;
 }
@@ -639,6 +643,12 @@ align-items: center;
 
 .workbook-step textarea::placeholder {
 	color: #202123;
+}
+
+.workbook-start-form input[type="text"]:focus,
+.workbook-start-form input[type="email"]:focus,
+.workbook-start-form textarea:focus {
+  color: #fff !important;
 }
 
 .workbook-step.start {
@@ -665,41 +675,6 @@ align-items: center;
   display: flex;
   align-items: center;
 }
-
-
-.workbook-step.start input[type="radio"] {
-  /* Remove default circle */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  /* Size relative to font – slightly larger */
-  width: 2em;
-  height: 2em;
-
-  /* Square shape with rounded corners */
-  border: 2px solid currentColor;
-  border-radius: 10px;
-
-  /* Spacing & positioning */
-  margin-right: 0.5em;
-  position: relative;
-  cursor: pointer;
-}
-
-.workbook-step.start input[type="radio"]:checked::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* Inner “dot” sized relative to the box */
-  width: 1.5em;
-  height: 1.5em;
-  background-color: #5bdeb8;
-  transform: translate(-50%, -50%);
-  border-radius: 8px;
-}
-
 
 button,
 input[type="button"],
@@ -809,6 +784,67 @@ textarea {
 /*--------------------------------------------------------------
 # Layouts + Templates
 --------------------------------------------------------------*/
+.commoncard._4 {
+  background-color: #fff;
+background-image: 
+  radial-gradient(circle at 0 100%, #000 31%, #0000),
+  url('/wp-content/themes/common-mmxxv/images/commonwealth_creative_product_web_development.webp');
+  background-position: 0 0, 80%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 650px;
+  display: flex;
+  overflow: hidden;
+}
+
+.commoncard._5 {
+  background-color: #fff;
+background-image: 
+  radial-gradient(circle at 0 100%, #000 31%, #0000),
+  url('/wp-content/themes/common-mmxxv/images/commonwealth_creative_branding_design.webp');
+  background-position: 0 0, 80%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 650px;
+  display: flex;
+  overflow: hidden;
+}
+
+
+#bgbook {
+    background: linear-gradient(to bottom, #000 0%, #212123 25%, #212123 100%);
+	color: #fff;
+}
+
+#bgbook .w-layout-hflex > * {
+    flex: 1;
+    min-width: 0;
+	align-items: center;
+	text-align: center;
+}
+
+#bgbook .w-layout-hflex {
+	align-items: center;
+}
+
+#bgbook .button {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2rem; /* adjust as needed */
+}
+
+.workbook-reviews {
+	text-align: center;
+	margin-top:40px;
+}
 .pills.center {
 	margin-left:10px;
 }
@@ -824,6 +860,10 @@ color: #fff;
 .post-template-codexpost-template .commonflexwide a.pills:hover{
 background: #5bdeb8;
 color: #000;
+}
+
+.post-template-codexpost-template .commoncenter a.underline {
+	color: #202123;
 }
 
 .home .commonstack.services a.commoncard > .mid {
@@ -1647,6 +1687,18 @@ li.servicelist, li.techlist {
 
 @media screen and (max-width: 767px) {
 
+	#bgbook .w-layout-hflex > * {
+		text-align: left;
+	}
+
+#bgbook .w-layout-hflex {
+	flex-direction: column;
+}
+
+#bgbook .button {
+	left: auto;
+	transform: none;
+}
 	.reviews {
 		width:100%;
 	}
@@ -1679,6 +1731,13 @@ li.servicelist, li.techlist {
 		}
 		.workbook-start-form .commonstack .w-layout-cell {
 align-items: flex-start;
+}
+.common-sso-login-box .divider {
+	margin-left: 20px;
+}
+
+a.pills.sso-button {
+	margin-left:0px!important;
 }
 
 }

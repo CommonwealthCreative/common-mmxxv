@@ -54,14 +54,22 @@
       <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="pills">Ask A Question</a>
       <div id="w-node-_5f2da74e-e9e6-1146-94a1-a3e9269e2bb1-e7795935" class="w-layout-layout commonstack wf-layout-layout">
       <?php
-    // Initial Query: All posts in the "portfolio" category, ordered by _post_ranking.
-    $portfolio_query = new WP_Query( array(
-      'category_name'  => 'codex',
-      'posts_per_page' => -1,
-      'meta_key'       => '_post_ranking',
-      'orderby'        => 'meta_value_num',
-      'order'          => 'ASC',
-    ) );
+    // Initial Query: All posts in the "codex" category, ordered by _post_ranking.
+  $portfolio_query = new WP_Query( array(
+  'posts_per_page' => -1,
+  'meta_key'       => '_post_ranking',
+  'orderby'        => 'meta_value_num',
+  'order'          => 'ASC',
+  'tax_query'      => array(
+    array(
+      'taxonomy'         => 'category',
+      'field'            => 'slug',
+      'terms'            => array( 'codex' ),
+      'include_children' => false,
+    ),
+  ),
+) );
+
 
     if ( $portfolio_query->have_posts() ) : 
       while ( $portfolio_query->have_posts() ) : 

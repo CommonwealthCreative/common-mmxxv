@@ -5,7 +5,9 @@
  */
 get_header();
 ?>
-
+<style>
+  .site-footer {}
+  </style>
 <main id="primary" class="site-main">
   <?php
   while ( have_posts() ) :
@@ -32,8 +34,8 @@ jQuery(function($){
         var $button = $('<button>', {
           type: 'submit',
           name: name,
-          class: 'button bgdark w-button sc-replaced',
-          html: 'Next Question <span class="fa after"></span>'
+          class: 'button w-button bgwhite sc-replaced',
+          html: 'Start Your Workbook <span class="fa after"></span>'
         });
         $input.replaceWith($button);
       });

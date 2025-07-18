@@ -778,3 +778,4 @@ function sc_register_subscriber_form() {
 }
 add_shortcode( 'subscriber_form', 'sc_register_subscriber_form' );
 
+

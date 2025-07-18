@@ -44,19 +44,19 @@ membership</a> at Commonwealth Creative, you gain unlimited access to every serv
       <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="scripts"><span class="fa"></span> Schedule an Introduction</a>
       <div id="w-node-_73a6a047-0df5-cced-a11d-3ea8c43e7106-e7795935" class="w-layout-layout commonstack wf-layout-layout">
         <div class="w-layout-cell">
-          <a href="/strategies-methods/" class="commoncard link w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/direction-5bdeb8.svg" alt="" class="commoncellimage">
+          <a href="/workbook/" class="commoncard link w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/direction-5bdeb8.svg" alt="" class="commoncellimage">
             <div class="mid">Direction By Design</div>
             <div>Our guidance and creative discovery process is tailored for you.</div>
           </a>
         </div>
         <div class="w-layout-cell">
-          <a href="/strategies-methods/" class="commoncard link w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/brand-5bdeb8.svg" alt="" class="commoncellimage">
+          <a href="/strategies-methods/branding-graphic-design/" class="commoncard link w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/brand-5bdeb8.svg" alt="" class="commoncellimage">
             <div class="mid">Signature Branding</div>
             <div>We create powerful brands that break through the market clutter.</div>
           </a>
         </div>
         <div class="w-layout-cell">
-          <a href="/strategies-methods/" class="commoncard link w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/code-5bdeb8.svg" alt="" class="commoncellimage">
+          <a href="/strategies-methods/website-product-development/" class="commoncard link w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/code-5bdeb8.svg" alt="" class="commoncellimage">
             <div class="mid">User-Focused Development</div>
             <div>Our code is always created around users and designed to convert.</div>
           </a>

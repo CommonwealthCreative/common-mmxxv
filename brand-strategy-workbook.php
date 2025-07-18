@@ -74,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="workbook-start-form">
       <a class="pills center bgcommon"><span class="fa"></span>Need Some Help?</a>
       <h3 class="match1 textwhite">Brand Strategy Workbook</h3>
-              <p class="textwhite">Complete the workbook online to <em class="textcommon">receive 15% off</em> your next Commonwealth Creative membership or contract.</p>
+              <p class="textwhite">Complete the workbook online and we'll send you <em class="textcommon">a 15% off coupon code</em> your next Commonwealth Creative purchase.</p>
       <div class="w-layout-layout commonstack wf-layout-layout"></div>
 
       

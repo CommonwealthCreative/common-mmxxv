@@ -58,7 +58,7 @@
               "Ineffective Marketing",
               "Lack of Positioning",
               "Creative Uncertainty",
-              "No Real Connection"
+              "No True Offer"
             ][$i]; ?></div>
             <div><?php echo [
               "Wasting money on redesigns that don’t solve real problems?",
@@ -84,11 +84,11 @@
           <?php for ($i = 0; $i < 6; $i++): ?>
           <div class="w-layout-cell">
             <div class="commoncard link w-inline-block">
-              <img loading="lazy" src="/wp-content/themes/common-mmxxv/images/logo.svg" alt="" class="commoncellimage">
+              <img loading="lazy" src="/wp-content/themes/common-mmxxv/images/common-check.svg" alt="" class="commoncellimage">
               <div class="mid textdark"><?php echo [
                 "Clarify Your Positioning",
                 "Define Your Unique Value",
-                "Create Consistent Messaging",
+                "Craft an Irresistible Offer",
                 "Boost Alignment and Efficiency",
                 "Build a Future-Proof Brand Asset",
                 "Focus Your Creative"
@@ -96,10 +96,10 @@
               <div class="textdark"><?php echo [
                 "You’ll end up with a sharp definition of what your brand stands for and why it matters—so every decision aligns with a clear purpose.",
                 "You’ll identify what genuinely makes your brand different—not just visually, but strategically.",
-                "You’ll end up with a sharp definition of what your brand stands for and why it matters—so every decision aligns with a clear purpose.",
-                "Shareable strategy documentation means everyone—from marketers to designers—works toward the same goal, reducing confusion and wasted effort.",
+                "You’ll end up with a compelling package that speaks directly to your ideal customer’s needs and highlights the unique value only your brand can deliver.",
+                "Shareable strategy documentation means everyone—from marketers to designers to AI agents—works toward the same goal, reducing confusion and wasted effort.",
                 "The completed blueprint becomes a reusable guide for future campaigns, hires, and creative efforts—helping you scale without losing your core identity.",
-                "Designers and copywriters will have what they need to create faster, stronger, and more strategic work—without constant revisions.."
+                "Designers, copywriters and AI agents will have what they need to create faster, stronger, and more strategic work—without constant revisions."
               ][$i]; ?></div>
             </div>
           </div>
@@ -110,8 +110,17 @@
       <div class="scripts">No bullsh*t</div>
       <p class="big"><b>This isn’t a sales pitch. It’s a standard.</b> There are no gimmicks, hacks, or generic advice here—just critical questions every brand must get clear on. If you already have clarity around your positioning, this workbook will validate you’re on the right track. If you don’t, that’s exactly why it exists—and we’re here to <a class="underline textdark" href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}'><b>guide you through it</b></a> if needed.</p>
     </div>
-    </div>
   </section>
       <?php get_template_part('template-parts/workbook-form'); ?>
-            <?php get_template_part('template-parts/shift'); ?>
+    <section id="bgbook" class="section-common">
+      <div class="commoncenter"><p class="match1 commonserif"><em class="textcommon">Unlock the clarity</em> your brand deserves.</em></p><p class="mid">Start your workbook now and get clear on what your brand stands for, who it’s for, and why it matters.</p><p class="textwhite">Complete the workbook online and receive a <em class="textcommon"> 15% discount</em> on any Commonwealth Creative product or membership.</p></div>
+      <div class="_1300">
+        <div class="w-layout-hflex">
+          <div class=""><p class="commonsans big">“Branding is the process of connecting good strategy with good creativity.”</p><p class="commonserif textcommon">— Marty Neumeier</p></div>
+          <div class=""><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/commonwealth-creative-workbook-background.jpg" alt="" class=""></div>
+          <div class=""><p class="commonsans big">“A brand is not a logo. A brand is a promise, a story and a shorthand.”</p><p class="commonserif textcommon">— Seth Godin</p></div>
+        </div>
+        <a href="#workbook" class="button w-button bgwhite">Start Your Workbook<span class="fa after"></span></a>
+      </div>
+    </section>    
 </article><!-- #post-<?php the_ID(); ?> -->
