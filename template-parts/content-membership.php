@@ -50,7 +50,7 @@
       <div class="scripts">One Membership. Every Service. No Limitations.</div>
       <p class="match1"><b>Revolutionizing</b> design and development—instant access to whatever you need.</p>
       <div id="w-node-_16b55484-e8a0-79ca-cec9-cd0c5f36f430-e7795935" class="w-layout-layout commonstack landing wf-layout-layout">
-        <div class="w-layout-cell">
+        <a href="#pricing" class="w-layout-cell">
           <div class="commoncard _1">
             <div class="mid textwhite"><strong>// 01</strong></div><img src="/wp-content/themes/common-mmxxv/images/pricing.png" loading="lazy" data-w-id="ccb5dfe3-c311-965c-49d1-7dd29b762109" sizes="(max-width: 613px) 100vw, 613px" alt="" srcset="" class="pricingscreenshot">
             <div>
@@ -58,7 +58,7 @@
               <div class="textwhite">Choose a plan and request as much design or development as you need—no limits, no hassle.</div>
             </div>
           </div>
-        </div>
+</a>
         <div class="w-layout-cell">
           <div data-w-id="f05169ee-178c-7301-722f-a74d6acb4b83" class="commoncard _2">
             <div class="mid textwhite"><strong>// 02</strong></div>

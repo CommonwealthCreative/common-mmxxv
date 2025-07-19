@@ -54,40 +54,38 @@
       <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="pills">Ask A Question</a>
       <div id="w-node-_5f2da74e-e9e6-1146-94a1-a3e9269e2bb1-e7795935" class="w-layout-layout commonstack wf-layout-layout">
       <?php
-    // Initial Query: All posts in the "codex" category, ordered by _post_ranking.
-  $portfolio_query = new WP_Query( array(
-  'posts_per_page' => -1,
-  'meta_key'       => '_post_ranking',
-  'orderby'        => 'meta_value_num',
-  'order'          => 'ASC',
-  'tax_query'      => array(
-    array(
-      'taxonomy'         => 'category',
-      'field'            => 'slug',
-      'terms'            => array( 'codex' ),
-      'include_children' => false,
+$portfolio_query = new WP_Query( array(
+    'posts_per_page' => -1,
+    'orderby'        => 'title',
+    'order'          => 'ASC',
+    'tax_query'      => array(
+        array(
+            'taxonomy'         => 'category',
+            'field'            => 'slug',
+            'terms'            => array( 'codex' ),
+            'include_children' => false,
+        ),
     ),
-  ),
 ) );
 
-
-    if ( $portfolio_query->have_posts() ) : 
-      while ( $portfolio_query->have_posts() ) : 
-          $portfolio_query->the_post(); 
-          get_template_part( 'template-parts/content', 'cards' );
-      endwhile; 
-      wp_reset_postdata(); // Reset the query
-    else : 
-      ?>
-      <div class="_1300 flexmiddle">
-          <p>
-              <?php echo esc_html( 'This page is currently under development. Please check back for updates. You may request portfolio examples by emailing ' ); ?>
-              <a href="mailto:hi@thecommonwealthcreative.com">hi@thecommonwealthcreative.com</a>.
-          </p>
-      </div>
-    <?php 
-    endif; 
+if ( $portfolio_query->have_posts() ) :
+    while ( $portfolio_query->have_posts() ) :
+        $portfolio_query->the_post();
+        get_template_part( 'template-parts/content', 'cards' );
+    endwhile;
+    wp_reset_postdata();
+else :
     ?>
+    <div class="_1300 flexmiddle">
+        <p>
+            <?php echo esc_html( 'This page is currently under development. Please check back for updates. You may request portfolio examples by emailing ' ); ?>
+            <a href="mailto:hi@thecommonwealthcreative.com">hi@thecommonwealthcreative.com</a>.
+        </p>
+    </div>
+<?php
+endif;
+?>
+
       </div> <!-- commonstack grid -->
     </div><!-- sectionstart -->
     <?php get_template_part('template-parts/cta-codex'); ?>

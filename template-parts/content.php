@@ -40,12 +40,33 @@
           </form>
         </div>
       </div>
-      <div class="w-layout-hflex sectionstart stretch">
+      <div class="w-layout-hflex sectionstart">
+        <?php
+$cats = get_the_category();
+if ( ! empty( $cats ) ) {
+    $displayed = [];
+    foreach ( $cats as $cat ) {
+        // If it's a child, first output its parent (once)
+        if ( $cat->parent && ! in_array( $cat->parent, $displayed ) ) {
+            $parent = get_category( $cat->parent );
+            echo '<a id="categories" href="' . esc_url( get_category_link( $parent->term_id ) ) . '" class="pills bgdark">';
+            echo '<span class="fa"></span> ' . esc_html( $parent->name );
+            echo '</a> ';
+            $displayed[] = $parent->term_id;
+        }
+        // Now output the category itself (once)
+        if ( ! in_array( $cat->term_id, $displayed ) ) {
+            echo '<a id="categories" href="' . esc_url( get_category_link( $cat->term_id ) ) . '" class="pills bgdark">';
+            echo '<span class="fa"></span> ' . esc_html( $cat->name );
+            echo '</a> ';
+            $displayed[] = $cat->term_id;
+        }
+    }
+}
+?>
       <?php if ( 'post' === get_post_type() ) : ?>
         <div class="entry-meta scripts">
           <?php
-            echo '<span class="fa"></span>';
-            the_commonwealth_theme_mmxxv_posted_by();
             echo '<span class="fa middle"></span>';
             the_commonwealth_theme_mmxxv_posted_on();
 
@@ -53,27 +74,8 @@
         </div><!-- .entry-meta -->
       <?php endif; ?>
 
-      <?php 
-        // Get the post categories.
-        $categories = get_the_category();
-        if ( ! empty( $categories ) ) {
-          // Use the first category.
-          $category = $categories[0];
-          // If this category has a parent, get the parent's info.
-          if ( $category->parent ) {
-            $parent_category = get_category( $category->parent );
-            $cat_name = $parent_category->name;
-            $cat_link = get_category_link( $parent_category->term_id );
-          } else {
-            // Otherwise, use the current category.
-            $cat_name = $category->name;
-            $cat_link = get_category_link( $category->term_id );
-          }
-      ?>
-          <a id="categories" href="<?php echo esc_url( $cat_link ); ?>" class="pills _478-hide">
-            <span class="fa"></span> <?php echo esc_html( $cat_name ); ?>
-          </a>
-      <?php } ?>
+     
+
     </div>
     </header><!-- .entry-header -->
 

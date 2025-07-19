@@ -816,6 +816,22 @@ background-image:
   overflow: hidden;
 }
 
+.commoncard._6 {
+  background-color: #fff;
+background-image: 
+  radial-gradient(circle at 0 100%, #000 31%, #0000),
+  url('/wp-content/themes/common-mmxxv/images/commonwealth_creative_fulfill.webp');
+  background-position: 0 0, 80%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 650px;
+  display: flex;
+  overflow: hidden;
+}
+
 
 #bgbook {
     background: linear-gradient(to bottom, #000 0%, #212123 25%, #212123 100%);
@@ -1696,6 +1712,7 @@ li.servicelist, li.techlist {
 
 
 @media screen and (max-width: 767px) {
+
 
 	#bgbook .w-layout-hflex > * {
 		text-align: left;
