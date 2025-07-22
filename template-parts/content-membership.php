@@ -102,7 +102,7 @@
           </div>
         </div>
         <div class="w-layout-cell">
-          <div class="commoncard _3">
+          <div class="commoncard _6">
             <div class="mid textwhite"><strong>// 03</strong></div>
             <div class="samples"><img src="/wp-content/themes/common-mmxxv/images/commonwealth-creative-virginia-dbhds-.png" loading="lazy" data-w-id="52d78b8b-c0c1-8f79-be07-1ae814ff8b5b" sizes="100vw" alt="" class="sampleimg _1"><img src="/wp-content/themes/common-mmxxv/images/commonwealth-creative-virginia-reach-.png" loading="lazy" data-w-id="08a9feaa-da9b-2c26-38fc-ab06891ad61d" sizes="100vw" alt="" class="sampleimg _2"><img src="/wp-content/themes/common-mmxxv/images/commonwealth-creative-thriveworks.png" loading="lazy" data-w-id="90c254a0-2df2-0286-ca00-863f2ca76ed4" sizes="100vw" alt="" class="sampleimg _3"></div>
             <div>
