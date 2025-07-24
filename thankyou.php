@@ -43,7 +43,7 @@ get_header();
         <p class="mid">At Commonwealth Creative, we help professionals like you sharpen their message, align their visuals, and build brands with purpose—not guesswork.</p><h3>Here are two ways we can support your next step:</h3></p>
 <p class="mid"><b>Schedule a 1-on-1 Introduction:</b> Let’s unpack your workbook responses and talk through how to move from insight to execution. <a class="underline textwhite" href="https://cal.com/hello.mattsmall/introduction-with-matt-small-commonwealth-creative">Schedule An Intro.</a></p>
 
-<p class="mid"><b>Start Your Membership:</b> Get ongoing strategy, design and technology support every month—built for mission-driven businesses ready to grow with clarity. One membership. Every service. No limitations. <a class="underline textwhite" href="http://localhost:8000/memberships/">View Memberships.</a></p>
+<p class="mid"><b>Start Your Membership:</b> Get ongoing strategy, design and technology support every month—built for mission-driven businesses ready to grow with clarity. One membership. Every service. No limitations. <a class="underline textwhite" href="/memberships/">View Memberships.</a></p>
 
 <h2 class="textcommon">Your brand deserves more than guesswork. Let’s build something meaningful, together. Here's a promo code for 15% off any purchase:</h2>
 <p class="match1 underline">COMMON15</p>

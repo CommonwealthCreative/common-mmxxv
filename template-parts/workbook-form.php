@@ -24,9 +24,9 @@
             <div class="commoncard link w-inline-block">
               <img loading="lazy" src="/wp-content/themes/common-mmxxv/images/common-quote.svg" alt="" class="commoncellimage">
               <div class="textwhite"><?php echo [
-  '"The Brand Strategy Workbook guided me to sharpen my core message in minutes, transforming abstract ideas into clear brand promises."',
-    '"By following its structured approach, I claimed my unique advantage and built an offer that truly resonates with our audience."',
-    '"The workbook’s ‘what‑how‑why‑who’ framework broke down brand purpose into actionable steps, giving us a solid foundation for the future."',
+  '"The Brand Strategy Workbook helped me to sharpen my core message in minutes...and I used it to create a better offer that attracted more customers."',
+    '"I used the workbook to as a test for leadership in my company. It was amazing to see how much better aligned we are after using it."',
+    '"The workbook’s ‘what‑how‑why‑who’ framework broke down our purpose into definitions, giving us a solid foundation for the future."',
               ][$i]; ?></div>
               <div class="commonserif textcommon" style="margin-top:10px;"><?php echo [
             "— Sofia Alvarez, Founder & CEO",

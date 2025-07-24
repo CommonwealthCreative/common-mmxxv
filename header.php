@@ -66,7 +66,8 @@ f="XMLHttpRequest",g._w={},g._w[f]=m[f],g._w[s]=m[s],m[s]&&(m[s]=function(){retu
 <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="scripts marquee">
   <?php if ( is_user_logged_in() ) : 
     $current_user = wp_get_current_user(); ?>
-    Hello <?php echo esc_html( $current_user->display_name ); ?>.  <a href="<?php echo esc_url( wp_logout_url( home_url() ) ); ?>">Account Details.</a>
+    Hello <?php echo esc_html( $current_user->display_name ); ?>.  <a href="<?php echo esc_url( home_url( '/my-account' ) ); ?>
+">Account Details.</a>
   <?php else : ?>
     Absolutely zero cost.  <a href="/workbook/">Start for free.</a>
   <?php endif; ?>
