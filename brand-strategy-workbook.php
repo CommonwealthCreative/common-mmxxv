@@ -4,8 +4,27 @@
  * @package The_Commonwealth_Theme_MMXXV
  */
 
+
+// Handle form submission *before* any output
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $to = 'accounts@thecommonwealthcreative.com';
+  $subject = 'New Brand Strategy Workbook Submission';
+  $headers = ['Content-Type: text/plain; charset=UTF-8'];
+
+  $message = '';
+  foreach ($_POST as $key => $value) {
+    $message .= ucfirst($key) . ":\n" . trim($value) . "\n\n";
+  }
+
+  wp_mail($to, $subject, $message, $headers);
+
+  wp_redirect(home_url('/thank-you'));
+  exit;
+}
 get_header();
 ?>
+
+
 
 <style>
   .site-footer { display: none; }
@@ -38,35 +57,6 @@ get_header();
 
 
 </style>
-
-<?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  $to = 'accounts@thecommonwealthcreative.com';
-  $subject = 'New Brand Strategy Workbook Submission';
-  $headers = ['Content-Type: text/plain; charset=UTF-8'];
-
-  $message = '';
-  foreach ($_POST as $key => $value) {
-    $message .= ucfirst($key) . ":\n" . trim($value) . "\n\n";
-  }
-
-  wp_mail($to, $subject, $message, $headers);
-
-  echo "<script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const wrapper = document.querySelector('.workbook-form-wrapper');
-      if (wrapper) {
-        wrapper.innerHTML = `
-          <div class='submission-message textcommon'>
-            <h2>Thanks for starting your workbook!</h2>
-            <p>We’ve received your answers and will review them shortly.</p>
-          </div>
-        `;
-      }
-    });
-  </script>";
-}
-?>
 
 <?php if ( is_user_logged_in() ) : ?>
 <div id="workbook" class="commoncard bgworkbook">
