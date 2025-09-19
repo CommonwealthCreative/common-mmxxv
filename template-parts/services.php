@@ -20,8 +20,8 @@
         </div>
         <div class="w-layout-cell">
           <a href="/strategies-methods/" class="commoncard link w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/seo.svg" alt="" class="commoncellimage">
-            <div class="mid">SEO &amp; SEM</div>
-            <div>Data-driven optimization and marketing to grow online.</div>
+            <div class="mid">SEO, GEO &amp; SEM</div>
+            <div>Data-driven optimization and marketing to grow and be found online.</div>
           </a>
         </div>
         <div class="w-layout-cell">
@@ -39,7 +39,7 @@
         <div class="w-layout-cell">
           <a href="/strategies-methods/" class="commoncard link w-inline-block"><img loading="lazy" src="/wp-content/themes/common-mmxxv/images/ai.svg" alt="" class="commoncellimage">
             <div class="mid">Artificial Intelligence (AI)</div>
-            <div>Leveraging the latest AI models to maximize productivity.</div>
+            <div>Applying advanced AI pipelines and optimization techniques to drive efficiency.</div>
           </a>
         </div>
       </div>

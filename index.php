@@ -39,7 +39,7 @@ get_header();
       <div class="commoncenter">
         <h1 class="textwhite">The signature design &amp; technology studio <em class="textcommon">created just for you.</em></h1>
         <div class="scripts withlove">made with <span class="fa middle textcommon"></span> in the commonwealth of virginia</div>
-        <p class="mid textwhite">One membership. Every service. No limitations. Get immediate access to your dashboard, submit unlimited requests, and receive deliverables every 48-72 hours. <a href="#faqs" class="textwhite underline">Have questions?</a></p>
+        <p class="mid textwhite">One membership. Every service. No limitations. Branding, design, websites & apps delivered every 48–72 hours for the <b>same flat monthly price</b>. <a href="#" data-cal-link="hello.mattsmall/introduction-with-matt-small-commonwealth-creative" data-cal-namespace="" data-cal-config='{"layout":"month_view"}' class="textwhite underline">Have questions?</a></p>
         <div class="stretch">
         <a href="/memberships" class="button bgwhite w-button">Start Your Membership<span class="fa after"></span></a>
         </div>

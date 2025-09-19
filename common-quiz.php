@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Contact
+ * Template Name: Common Quiz
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -40,8 +40,8 @@ get_header();
 	<canvas class="header" id="interactiveCanvas"></canvas>
  	
 	<div data-w-id="af27d7af-148b-9945-4fb0-63761d263b9a" style="opacity:0" class="_1300 commoncenter">
-      <h1>This Is Where Your Rebellion Begins.</h1>
-      <p class="mid">Full-stack design & development <b>the way it should have been all along</b>.</p>
+      <h1>The Common Quiz.</h1>
+      <p class="mid">Created by Commonwealth Creative, driven by rejecting bloated tech and lifeless design to craft brands that stand out, drive results, and stay future-ready.</p>
       <div data-w-id="" style="" class=" ">
             <a href="tel:8044241348" class="scripts textwhite"><span class="fa textcommon"></span> 804-424-1348</a>
             <a href="mailto:hi@thecommonwealthcreative.com" class="scripts textwhite"><span class="fa textcommon"></span> hi@thecommonwealthcreative.com</a><a href="https://www.instagram.com/hi_commonwealth/" target="_blank" class="scripts textwhite"><span class="fa textcommon">@</span> hi_commonwealth</a>
